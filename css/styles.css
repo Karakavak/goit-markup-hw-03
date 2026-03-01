@@ -141,7 +141,7 @@ font-style: normal;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 188 472;
+
 }
 .solution-header {
     font-size: 56px;
@@ -198,31 +198,35 @@ padding-bottom: 120px;
     }
 .team { 
     background-color: #f4f4fd;
-    padding-top: 120px;
-    padding-bottom: 120px;
+   padding: 120px 0;
 }    
 .team-title {
-    fcolor: var(--second-title-color);
     margin-bottom: 72px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
+   font-size: 36px;
+   font-weight: 700;
+   text-align: center;
+   color: #2e2f42;
+   line-height: 1.11;
+   letter-spacing: 0.02em;
 }
 .team-list {
     display: flex;
-    gap: 24px;
-    align-items: center;
+   gap: 24px;
+   justify-content: center;
+   flex-wrap: wrap;
 }
 .team-item {
-     background-color: #ffffff;
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
+   width: calc((100% - 72px) / 4);
+   background-color: #ffffff;
+   border-radius: 0 0 4px 4px;
+   box-shadow:
+      0 2px 1px rgba(46, 47, 66, 0.08),
+      0 1px 1px rgba(46, 47, 66, 0.16),
+      0 1px 6px rgba(46, 47, 66, 0.08);
 }
 .team-text{
-    padding:32px 0;
+    padding:32px 16px;
+    text-align: center;
 }
 
 .team-subtitle {
@@ -230,14 +234,16 @@ padding-bottom: 120px;
     margin-bottom: 8px;
     font-weight: 500;
     color: #2e2f42;
+    font-size: 20px;
 }
 
 .team-text {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--second-title-color);
-}
+    color:  #434455;;
+    font-size: 16px;
+} 
 .portfolio{
     padding-top: 120px;
     padding-bottom: 120px;
