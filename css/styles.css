@@ -43,7 +43,7 @@ body {
   letter-spacing: 0.02em;
   margin: 0;
 }
-.conteiner {
+.container {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -208,6 +208,9 @@ padding-bottom: 120px;
 .team { 
     background-color: #f4f4fd;   
 } 
+.team-img {
+    margin-top: 32px;
+}
 
 .team-title {
     margin-bottom:  72px;
@@ -238,6 +241,8 @@ padding-bottom: 120px;
   letter-spacing: 0.02em;
   line-height: 1.5;
   text-align: center;
+ 
+ 
 
 }
 
@@ -248,7 +253,7 @@ padding-bottom: 120px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy);
-    
+margin-top: 32px;
   
 }
 
@@ -257,6 +262,8 @@ padding-bottom: 120px;
   line-height: 1.5;
   letter-spacing: 0.02em;
     color: var(--slate);
+   
+  
 } 
 .portfolio{
     padding-top: 120px;
